@@ -1,5 +1,6 @@
 {
   "name": "visualisasi-operasi-vektor",
+  "homepage": "http://helicam-bali.com/visualisasioperasivektor/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +11,10 @@
     "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
+    "react-use-gesture": "^7.0.15",
     "tailwindcss": "^1.4.6"
   },
   "scripts": {
@@ -18,8 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "buildtailwind":"postcss src/css/tailwind.css -o src/app.css",
-    "watchtailwind":"postcss src/css/tailwind.css -o src/app.css --watch"
+    "buildtailwind": "postcss src/css/tailwind.css -o src/app.css",
+    "watchtailwind": "postcss src/css/tailwind.css -o src/app.css --watch"
   },
   "eslintConfig": {
     "extends": "react-app"
